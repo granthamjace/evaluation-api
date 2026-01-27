@@ -225,7 +225,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Pattern:** `backend/src/modules/users/user.repo.ts`
 
 ### 10.2 Service
-- [ ] Create `backend/src/modules/projects/project.service.ts`
+- [x] Create `backend/src/modules/projects/project.service.ts`
   - `listProjects()` - normalize params, call repo
   - `getProject()` - verify access, return details
   - `createProject()` - create with owner
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 10        | 36%          |
+| 8-16  | Backend      | 28 tasks | 11        | 39%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 35        | 56%          |
+| Total |              | 63 tasks | 36        | 57%          |
