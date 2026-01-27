@@ -66,7 +66,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Pattern:** `frontend/src/stores/counter.ts`
 
 ### 3.2 Users Store
-- [ ] Create `frontend/src/stores/users.ts`
+- [x] Create `frontend/src/stores/users.ts`
   - State: `users`, `loading`, `error`, `pagination`, `searchQuery`
   - Actions: `fetchUsers`, `setPage`, `setSearch`
   - **Ref:** [frontend.md#users-store](./frontend.md#pinia-stores)
@@ -392,7 +392,7 @@ Checkboxes track progress. References point to specs or source files.
 
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
-| 1-7   | Frontend     | 25 tasks | 11        | 44%          |
+| 1-7   | Frontend     | 25 tasks | 12        | 48%          |
 | 8-16  | Backend      | 28 tasks | 0         | 0%           |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 11        | 17%          |
+| Total |              | 63 tasks | 12        | 19%          |
