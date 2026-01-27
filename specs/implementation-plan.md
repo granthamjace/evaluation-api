@@ -76,13 +76,13 @@ Checkboxes track progress. References point to specs or source files.
 ## Phase 4: Frontend Router
 
 ### 4.1 Route Configuration
-- [ ] Update `frontend/src/router/index.ts`
+- [x] Update `frontend/src/router/index.ts`
   - Add routes: `/login`, `/register`, `/profile`, `/users`, `404`
   - **Ref:** [frontend.md#routes](./frontend.md#router-configuration)
   - **Source:** `frontend/src/router/index.ts`
 
 ### 4.2 Navigation Guards
-- [ ] Add `beforeEach` guard to router
+- [x] Add `beforeEach` guard to router
   - Check auth state, redirect logic
   - **Ref:** [frontend.md#navigation-guards](./frontend.md#router-configuration)
 
@@ -392,7 +392,7 @@ Checkboxes track progress. References point to specs or source files.
 
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
-| 1-7   | Frontend     | 25 tasks | 12        | 48%          |
+| 1-7   | Frontend     | 25 tasks | 14        | 56%          |
 | 8-16  | Backend      | 28 tasks | 0         | 0%           |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 12        | 19%          |
+| Total |              | 63 tasks | 14        | 22%          |
