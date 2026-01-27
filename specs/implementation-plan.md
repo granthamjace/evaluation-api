@@ -277,7 +277,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [backend.md#project-members](./backend.md#api-endpoints)
 
 ### 13.2 Member Controller
-- [ ] Create `backend/src/modules/projects/member.controller.ts`
+- [x] Create `backend/src/modules/projects/member.controller.ts`
   - HTTP handlers for member operations
   - **Ref:** [backend.md#project-members](./backend.md#api-endpoints)
 
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 16        | 57%          |
+| 8-16  | Backend      | 28 tasks | 17        | 61%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 41        | 65%          |
+| Total |              | 63 tasks | 42        | 67%          |
