@@ -172,25 +172,25 @@ Checkboxes track progress. References point to specs or source files.
   - **Source:** `backend/prisma/schema.prisma`
 
 ### 8.2 Prisma Models
-- [ ] Add `Project` model to schema
+- [x] Add `Project` model to schema
   - **Ref:** [backend.md#project](./backend.md#database-schema)
 
-- [ ] Add `ProjectMember` model with composite unique key
+- [x] Add `ProjectMember` model with composite unique key
   - `@@unique([projectId, userId])`
   - **Ref:** [backend.md#projectmember-join-table](./backend.md#database-schema)
 
-- [ ] Add `Task` model with composite unique key
+- [x] Add `Task` model with composite unique key
   - `@@unique([projectId, title])`
   - **Ref:** [backend.md#task](./backend.md#database-schema)
 
 ### 8.3 User Model Relations
-- [ ] Add relations to `User` model
+- [x] Add relations to `User` model
   - `ownedProjects`, `projectMembers`, `assignedTasks`
   - **Ref:** [backend.md#user-model-updates](./backend.md#database-schema)
 
 ### 8.4 Run Migration
-- [ ] Run `npx prisma migrate dev --name add_projects`
-- [ ] Verify tables created in database
+- [x] Run `npx prisma migrate dev --name add_projects`
+- [x] Verify tables created in database
 
 ---
 
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 1         | 4%           |
+| 8-16  | Backend      | 28 tasks | 7         | 25%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 26        | 41%          |
+| Total |              | 63 tasks | 32        | 51%          |
