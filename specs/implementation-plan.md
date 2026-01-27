@@ -140,7 +140,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Source:** `frontend/src/App.vue`
 
 ### 6.2 Initialize Auth
-- [ ] Call `authStore.init()` in `main.ts` before mount
+- [x] Call `authStore.init()` in `main.ts` before mount
   - **Source:** `frontend/src/main.ts`
 
 ---
@@ -392,7 +392,7 @@ Checkboxes track progress. References point to specs or source files.
 
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
-| 1-7   | Frontend     | 25 tasks | 20        | 80%          |
+| 1-7   | Frontend     | 25 tasks | 21        | 84%          |
 | 8-16  | Backend      | 28 tasks | 0         | 0%           |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 20        | 32%          |
+| Total |              | 63 tasks | 21        | 33%          |
