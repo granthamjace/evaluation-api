@@ -215,7 +215,7 @@ Checkboxes track progress. References point to specs or source files.
 ## Phase 10: Backend Project Repository & Service
 
 ### 10.1 Repository
-- [ ] Create `backend/src/modules/projects/project.repo.ts`
+- [x] Create `backend/src/modules/projects/project.repo.ts`
   - `findPaginated()` - list user's projects with counts
   - `findById()` - get with owner, members, task count
   - `create()` - create project + owner member in transaction
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 9         | 32%          |
+| 8-16  | Backend      | 28 tasks | 10        | 36%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 34        | 54%          |
+| Total |              | 63 tasks | 35        | 56%          |
