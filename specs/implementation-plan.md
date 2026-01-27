@@ -239,7 +239,7 @@ Checkboxes track progress. References point to specs or source files.
 ## Phase 11: Backend Project Controller & Router
 
 ### 11.1 Controller
-- [ ] Create `backend/src/modules/projects/project.controller.ts`
+- [x] Create `backend/src/modules/projects/project.controller.ts`
   - `list`, `create`, `get`, `update`, `delete` handlers
   - **Ref:** [backend.md#projects-crud](./backend.md#api-endpoints)
   - **Pattern:** `backend/src/modules/users/user.controller.ts`
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 11        | 39%          |
+| 8-16  | Backend      | 28 tasks | 12        | 43%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 36        | 57%          |
+| Total |              | 63 tasks | 37        | 59%          |
