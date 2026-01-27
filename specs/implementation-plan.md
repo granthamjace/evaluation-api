@@ -40,16 +40,16 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [frontend.md#auth-types](./frontend.md#typescript-types)
 
 ### 2.2 API Client
-- [ ] Create `frontend/src/api/client.ts`
+- [x] Create `frontend/src/api/client.ts`
   - Fetch wrapper with auth header injection
   - 401 handling (clear token, redirect)
   - **Ref:** [frontend.md#api-client](./frontend.md#api-client)
 
-- [ ] Create `frontend/src/api/auth.api.ts`
+- [x] Create `frontend/src/api/auth.api.ts`
   - `register()`, `login()`, `getMe()`
   - **Ref:** [frontend.md#api-client](./frontend.md#api-client)
 
-- [ ] Create `frontend/src/api/users.api.ts`
+- [x] Create `frontend/src/api/users.api.ts`
   - `list()` with pagination params
   - **Ref:** [frontend.md#api-client](./frontend.md#api-client)
 
@@ -392,7 +392,7 @@ Checkboxes track progress. References point to specs or source files.
 
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
-| 1-7   | Frontend     | 25 tasks | 7         | 28%          |
+| 1-7   | Frontend     | 25 tasks | 10        | 40%          |
 | 8-16  | Backend      | 28 tasks | 0         | 0%           |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 7         | 11%          |
+| Total |              | 63 tasks | 10        | 16%          |
