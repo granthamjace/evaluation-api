@@ -282,7 +282,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [backend.md#project-members](./backend.md#api-endpoints)
 
 ### 13.3 Member Routes
-- [ ] Add member routes to `project.router.ts`
+- [x] Add member routes to `project.router.ts`
   - Nested under `/projects/:id/members`
   - **Ref:** [backend.md#project-members](./backend.md#api-endpoints)
 
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 17        | 61%          |
+| 8-16  | Backend      | 28 tasks | 18        | 64%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 42        | 67%          |
+| Total |              | 63 tasks | 43        | 68%          |

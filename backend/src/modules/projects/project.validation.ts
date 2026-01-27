@@ -25,3 +25,17 @@ export const listProjectsQuerySchema = z.object({
 });
 
 export type ListProjectsQuery = z.infer<typeof listProjectsQuerySchema>;
+
+// Member validation schemas
+export const addMemberSchema = z.object({
+  userId: z.string().min(1),
+  role: z.enum(["ADMIN", "MEMBER", "VIEWER"]).optional().default("MEMBER"),
+});
+
+export type AddMemberBody = z.infer<typeof addMemberSchema>;
+
+export const updateMemberRoleSchema = z.object({
+  role: z.enum(["ADMIN", "MEMBER", "VIEWER"]),
+});
+
+export type UpdateMemberRoleBody = z.infer<typeof updateMemberRoleSchema>;
