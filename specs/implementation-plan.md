@@ -261,7 +261,7 @@ Checkboxes track progress. References point to specs or source files.
 ## Phase 12: Backend Project Authorization Middleware
 
 ### 12.1 Project Auth Middleware
-- [ ] Create `backend/src/middlewares/projectAuth.ts`
+- [x] Create `backend/src/middlewares/projectAuth.ts`
   - `requireProjectMember` - verify user is member
   - `requireProjectRole(roles)` - verify user has allowed role
   - **Ref:** [backend.md#authorization](./backend.md#api-endpoints)
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 14        | 50%          |
+| 8-16  | Backend      | 28 tasks | 15        | 54%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 39        | 62%          |
+| Total |              | 63 tasks | 40        | 63%          |
