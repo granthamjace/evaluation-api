@@ -158,8 +158,8 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [frontend.md#component-tests](./frontend.md#testing-requirements)
 
 ### 7.3 Type Check & Lint
-- [ ] Run `npm run type-check` - fix any errors
-- [ ] Run `npm run lint` - fix any errors
+- [x] Run `npm run type-check` - fix any errors
+- [x] Run `npm run lint` - fix any errors
 
 ---
 
@@ -392,7 +392,7 @@ Checkboxes track progress. References point to specs or source files.
 
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
-| 1-7   | Frontend     | 25 tasks | 23        | 92%          |
+| 1-7   | Frontend     | 25 tasks | 25        | 100%         |
 | 8-16  | Backend      | 28 tasks | 0         | 0%           |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 23        | 37%          |
+| Total |              | 63 tasks | 25        | 40%          |
