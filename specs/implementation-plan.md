@@ -99,7 +99,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [frontend.md#loginview](./frontend.md#views-specification)
 
 ### 5.2 Register View
-- [ ] Create `frontend/src/views/RegisterView.vue`
+- [x] Create `frontend/src/views/RegisterView.vue`
   - Email, password, firstName, lastName inputs
   - Password strength indicator
   - Error display
@@ -392,7 +392,7 @@ Checkboxes track progress. References point to specs or source files.
 
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
-| 1-7   | Frontend     | 25 tasks | 15        | 60%          |
+| 1-7   | Frontend     | 25 tasks | 16        | 64%          |
 | 8-16  | Backend      | 28 tasks | 0         | 0%           |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 15        | 24%          |
+| Total |              | 63 tasks | 16        | 25%          |
