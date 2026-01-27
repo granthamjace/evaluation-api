@@ -121,7 +121,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [frontend.md#usersview](./frontend.md#views-specification)
 
 ### 5.5 Not Found View
-- [ ] Create `frontend/src/views/NotFoundView.vue`
+- [x] Create `frontend/src/views/NotFoundView.vue`
   - 404 message
   - Link to home
   - **Ref:** [frontend.md#notfoundview](./frontend.md#views-specification)
@@ -392,7 +392,7 @@ Checkboxes track progress. References point to specs or source files.
 
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
-| 1-7   | Frontend     | 25 tasks | 18        | 72%          |
+| 1-7   | Frontend     | 25 tasks | 19        | 76%          |
 | 8-16  | Backend      | 28 tasks | 0         | 0%           |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 18        | 29%          |
+| Total |              | 63 tasks | 19        | 30%          |
