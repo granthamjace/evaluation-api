@@ -197,7 +197,7 @@ Checkboxes track progress. References point to specs or source files.
 ## Phase 9: Backend Project Types & Validation
 
 ### 9.1 Types
-- [ ] Create `backend/src/modules/projects/project.types.ts`
+- [x] Create `backend/src/modules/projects/project.types.ts`
   - `CreateProjectInput`, `UpdateProjectInput`
   - `ListProjectsParams`, `PaginatedProjectsResult`
   - **Ref:** [backend.md#api-endpoints](./backend.md#api-endpoints)
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 7         | 25%          |
+| 8-16  | Backend      | 28 tasks | 8         | 29%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 32        | 51%          |
+| Total |              | 63 tasks | 33        | 52%          |
