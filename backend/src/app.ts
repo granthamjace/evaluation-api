@@ -7,6 +7,7 @@ import { userRouter } from "./modules/users/user.router";
 import swaggerUi from "swagger-ui-express";
 import { swaggerSpec } from "./docs/swagger";
 import { authRouter } from "./modules/auth/auth.router";
+import { projectRouter } from "./modules/projects/project.router";
 
 export const createApp = () => {
   const app = express();
@@ -28,6 +29,8 @@ export const createApp = () => {
   app.use("/auth", authRouter);
 
   app.use("/users", userRouter);
+
+  app.use("/projects", projectRouter);
 
   // error handler should be last
   app.use(errorHandler);

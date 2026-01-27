@@ -245,14 +245,14 @@ Checkboxes track progress. References point to specs or source files.
   - **Pattern:** `backend/src/modules/users/user.controller.ts`
 
 ### 11.2 Router
-- [ ] Create `backend/src/modules/projects/project.router.ts`
+- [x] Create `backend/src/modules/projects/project.router.ts`
   - Apply `requireAuth` to all routes
   - Apply validation middleware
   - **Ref:** [backend.md#projects-crud](./backend.md#api-endpoints)
   - **Pattern:** `backend/src/modules/auth/auth.router.ts`
 
 ### 11.3 Register Router
-- [ ] Update `backend/src/app.ts`
+- [x] Update `backend/src/app.ts`
   - Add `app.use("/projects", projectRouter)`
   - **Source:** `backend/src/app.ts`
 
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 12        | 43%          |
+| 8-16  | Backend      | 28 tasks | 14        | 50%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 37        | 59%          |
+| Total |              | 63 tasks | 39        | 62%          |
