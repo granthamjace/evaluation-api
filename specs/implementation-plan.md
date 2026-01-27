@@ -166,7 +166,7 @@ Checkboxes track progress. References point to specs or source files.
 ## Phase 8: Backend Schema
 
 ### 8.1 Prisma Enums
-- [ ] Add enums to `backend/prisma/schema.prisma`
+- [x] Add enums to `backend/prisma/schema.prisma`
   - `ProjectStatus`, `ProjectRole`, `TaskStatus`, `TaskPriority`
   - **Ref:** [backend.md#new-enums](./backend.md#database-schema)
   - **Source:** `backend/prisma/schema.prisma`
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 0         | 0%           |
+| 8-16  | Backend      | 28 tasks | 1         | 4%           |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 25        | 40%          |
+| Total |              | 63 tasks | 26        | 41%          |
