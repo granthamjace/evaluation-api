@@ -131,7 +131,7 @@ Checkboxes track progress. References point to specs or source files.
 ## Phase 6: Frontend Layout
 
 ### 6.1 App Component
-- [ ] Update `frontend/src/App.vue`
+- [x] Update `frontend/src/App.vue`
   - Add Toast component
   - Add Menubar (conditional on auth)
   - Add RouterView
@@ -392,7 +392,7 @@ Checkboxes track progress. References point to specs or source files.
 
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
-| 1-7   | Frontend     | 25 tasks | 19        | 76%          |
+| 1-7   | Frontend     | 25 tasks | 20        | 80%          |
 | 8-16  | Backend      | 28 tasks | 0         | 0%           |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 19        | 30%          |
+| Total |              | 63 tasks | 20        | 32%          |
