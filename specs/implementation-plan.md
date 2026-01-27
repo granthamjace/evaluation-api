@@ -113,7 +113,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [frontend.md#profileview](./frontend.md#views-specification)
 
 ### 5.4 Users View
-- [ ] Create `frontend/src/views/UsersView.vue`
+- [x] Create `frontend/src/views/UsersView.vue`
   - DataTable with columns
   - Search input with debounce
   - Paginator component
@@ -392,7 +392,7 @@ Checkboxes track progress. References point to specs or source files.
 
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
-| 1-7   | Frontend     | 25 tasks | 17        | 68%          |
+| 1-7   | Frontend     | 25 tasks | 18        | 72%          |
 | 8-16  | Backend      | 28 tasks | 0         | 0%           |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 17        | 27%          |
+| Total |              | 63 tasks | 18        | 29%          |
