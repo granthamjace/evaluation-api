@@ -58,7 +58,7 @@ Checkboxes track progress. References point to specs or source files.
 ## Phase 3: Frontend State Management
 
 ### 3.1 Auth Store
-- [ ] Create `frontend/src/stores/auth.ts`
+- [x] Create `frontend/src/stores/auth.ts`
   - State: `user`, `token`, `loading`, `error`
   - Getters: `isAuthenticated`, `userFullName`
   - Actions: `login`, `register`, `logout`, `fetchUser`, `init`
@@ -392,7 +392,7 @@ Checkboxes track progress. References point to specs or source files.
 
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
-| 1-7   | Frontend     | 25 tasks | 10        | 40%          |
+| 1-7   | Frontend     | 25 tasks | 11        | 44%          |
 | 8-16  | Backend      | 28 tasks | 0         | 0%           |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 10        | 16%          |
+| Total |              | 63 tasks | 11        | 17%          |
