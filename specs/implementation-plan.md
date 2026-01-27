@@ -91,7 +91,7 @@ Checkboxes track progress. References point to specs or source files.
 ## Phase 5: Frontend Views
 
 ### 5.1 Login View
-- [ ] Create `frontend/src/views/LoginView.vue`
+- [x] Create `frontend/src/views/LoginView.vue`
   - Email/password inputs (PrimeVue)
   - Submit with loading state
   - Error display
@@ -392,7 +392,7 @@ Checkboxes track progress. References point to specs or source files.
 
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
-| 1-7   | Frontend     | 25 tasks | 14        | 56%          |
+| 1-7   | Frontend     | 25 tasks | 15        | 60%          |
 | 8-16  | Backend      | 28 tasks | 0         | 0%           |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 14        | 22%          |
+| Total |              | 63 tasks | 15        | 24%          |
