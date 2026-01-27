@@ -153,7 +153,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [frontend.md#store-tests](./frontend.md#testing-requirements)
 
 ### 7.2 View Tests
-- [ ] Create `frontend/src/__tests__/views/LoginView.spec.ts`
+- [x] Create `frontend/src/__tests__/views/LoginView.spec.ts`
   - Test form rendering, error display
   - **Ref:** [frontend.md#component-tests](./frontend.md#testing-requirements)
 
@@ -392,7 +392,7 @@ Checkboxes track progress. References point to specs or source files.
 
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
-| 1-7   | Frontend     | 25 tasks | 22        | 88%          |
+| 1-7   | Frontend     | 25 tasks | 23        | 92%          |
 | 8-16  | Backend      | 28 tasks | 0         | 0%           |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 22        | 35%          |
+| Total |              | 63 tasks | 23        | 37%          |
