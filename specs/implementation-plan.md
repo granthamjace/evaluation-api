@@ -148,7 +148,7 @@ Checkboxes track progress. References point to specs or source files.
 ## Phase 7: Frontend Testing & Polish
 
 ### 7.1 Store Tests
-- [ ] Create `frontend/src/__tests__/stores/auth.spec.ts`
+- [x] Create `frontend/src/__tests__/stores/auth.spec.ts`
   - Test login, logout, init behaviors
   - **Ref:** [frontend.md#store-tests](./frontend.md#testing-requirements)
 
@@ -392,7 +392,7 @@ Checkboxes track progress. References point to specs or source files.
 
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
-| 1-7   | Frontend     | 25 tasks | 21        | 84%          |
+| 1-7   | Frontend     | 25 tasks | 22        | 88%          |
 | 8-16  | Backend      | 28 tasks | 0         | 0%           |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 21        | 33%          |
+| Total |              | 63 tasks | 22        | 35%          |
