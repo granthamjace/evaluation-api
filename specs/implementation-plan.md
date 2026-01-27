@@ -272,7 +272,7 @@ Checkboxes track progress. References point to specs or source files.
 ## Phase 13: Backend Member Management
 
 ### 13.1 Member Service
-- [ ] Create `backend/src/modules/projects/member.service.ts`
+- [x] Create `backend/src/modules/projects/member.service.ts`
   - `listMembers()`, `addMember()`, `updateMemberRole()`, `removeMember()`
   - **Ref:** [backend.md#project-members](./backend.md#api-endpoints)
 
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 15        | 54%          |
+| 8-16  | Backend      | 28 tasks | 16        | 57%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 40        | 63%          |
+| Total |              | 63 tasks | 41        | 65%          |
