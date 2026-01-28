@@ -1,5 +1,6 @@
 import express from "express";
 import { json } from "express";
+import cors from "cors";
 import { env } from "./config/env";
 import { logger } from "./config/logger";
 import { errorHandler } from "./middlewares/errorHandler";
@@ -12,6 +13,7 @@ import { projectRouter } from "./modules/projects/project.router";
 export const createApp = () => {
   const app = express();
 
+  app.use(cors());
   app.use(json());
 
   // basic request logging
