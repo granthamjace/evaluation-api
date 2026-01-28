@@ -304,7 +304,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [backend.md#tasks](./backend.md#api-endpoints)
 
 ### 14.3 Task Service
-- [ ] Create `backend/src/modules/projects/task.service.ts`
+- [x] Create `backend/src/modules/projects/task.service.ts`
   - Business logic with assignee validation
   - **Ref:** [backend.md#create-task](./backend.md#api-endpoints)
 
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 21        | 75%          |
+| 8-16  | Backend      | 28 tasks | 22        | 79%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 46        | 73%          |
+| Total |              | 63 tasks | 47        | 75%          |
