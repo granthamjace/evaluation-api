@@ -299,7 +299,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [backend.md#tasks](./backend.md#api-endpoints)
 
 ### 14.2 Task Repository
-- [ ] Create `backend/src/modules/projects/task.repo.ts`
+- [x] Create `backend/src/modules/projects/task.repo.ts`
   - `findPaginated()`, `findById()`, `create()`, `update()`, `delete()`
   - **Ref:** [backend.md#tasks](./backend.md#api-endpoints)
 
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 20        | 71%          |
+| 8-16  | Backend      | 28 tasks | 21        | 75%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 45        | 71%          |
+| Total |              | 63 tasks | 46        | 73%          |
