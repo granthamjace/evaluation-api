@@ -332,7 +332,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [backend.md#unit-tests](./backend.md#test-requirements)
   - **Pattern:** `backend/src/tests/unit/userService.test.ts`
 
-- [ ] Create `backend/src/tests/unit/taskService.test.ts`
+- [x] Create `backend/src/tests/unit/taskService.test.ts`
   - Test assignee validation
   - Test duplicate title handling
   - **Ref:** [backend.md#unit-tests](./backend.md#test-requirements)
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 26        | 93%          |
+| 8-16  | Backend      | 28 tasks | 27        | 96%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 51        | 81%          |
+| Total |              | 63 tasks | 52        | 83%          |
