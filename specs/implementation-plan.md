@@ -326,7 +326,7 @@ Checkboxes track progress. References point to specs or source files.
 ## Phase 15: Backend Testing
 
 ### 15.1 Unit Tests
-- [ ] Create `backend/src/tests/unit/projectService.test.ts`
+- [x] Create `backend/src/tests/unit/projectService.test.ts`
   - Test pagination normalization
   - Test authorization checks
   - **Ref:** [backend.md#unit-tests](./backend.md#test-requirements)
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 25        | 89%          |
+| 8-16  | Backend      | 28 tasks | 26        | 93%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 50        | 79%          |
+| Total |              | 63 tasks | 51        | 81%          |
