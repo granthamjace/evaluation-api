@@ -356,7 +356,7 @@ Checkboxes track progress. References point to specs or source files.
 ## Phase 16: Backend Documentation
 
 ### 16.1 Swagger Updates
-- [ ] Update `backend/src/docs/swagger.ts`
+- [x] Update `backend/src/docs/swagger.ts`
   - Add Project, ProjectMember, Task schemas
   - Add all `/projects/*` paths
   - **Source:** `backend/src/docs/swagger.ts`
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 30 tasks | 29        | 97%          |
+| 8-16  | Backend      | 30 tasks | 30        | 100%         |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 65 tasks | 54        | 83%          |
+| Total |              | 65 tasks | 55        | 85%          |
