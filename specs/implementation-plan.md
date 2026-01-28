@@ -291,10 +291,10 @@ Checkboxes track progress. References point to specs or source files.
 ## Phase 14: Backend Task Management
 
 ### 14.1 Task Types & Validation
-- [ ] Create `backend/src/modules/projects/task.types.ts`
+- [x] Create `backend/src/modules/projects/task.types.ts`
   - `CreateTaskInput`, `UpdateTaskInput`, `ListTasksParams`
 
-- [ ] Create `backend/src/modules/projects/task.validation.ts`
+- [x] Create `backend/src/modules/projects/task.validation.ts`
   - `createTaskSchema`, `updateTaskSchema`, `listTasksQuerySchema`
   - **Ref:** [backend.md#tasks](./backend.md#api-endpoints)
 
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 18        | 64%          |
+| 8-16  | Backend      | 28 tasks | 20        | 71%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 43        | 68%          |
+| Total |              | 63 tasks | 45        | 71%          |
