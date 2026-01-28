@@ -2,6 +2,7 @@
 import { Router } from "express";
 import { projectController } from "./project.controller";
 import { memberController } from "./member.controller";
+import { taskRouter } from "./task.router";
 import { validateBody, validateQuery } from "../../middlewares/validation";
 import {
   createProjectSchema,
@@ -71,3 +72,6 @@ projectRouter.delete(
   requireProjectRole(["OWNER", "ADMIN"]),
   memberController.remove
 );
+
+// Task routes - nested under /projects/:id/tasks
+projectRouter.use("/:id/tasks", taskRouter);

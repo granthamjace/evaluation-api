@@ -314,12 +314,12 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [backend.md#tasks](./backend.md#api-endpoints)
 
 ### 14.5 Task Router
-- [ ] Create `backend/src/modules/projects/task.router.ts`
+- [x] Create `backend/src/modules/projects/task.router.ts`
   - Nested under `/projects/:id/tasks`
   - **Ref:** [backend.md#tasks](./backend.md#api-endpoints)
 
 ### 14.6 Wire Task Routes
-- [ ] Import and use task router in `project.router.ts`
+- [x] Import and use task router in `project.router.ts`
 
 ---
 
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 23        | 82%          |
+| 8-16  | Backend      | 28 tasks | 25        | 89%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 48        | 76%          |
+| Total |              | 63 tasks | 50        | 79%          |
