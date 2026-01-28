@@ -309,7 +309,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [backend.md#create-task](./backend.md#api-endpoints)
 
 ### 14.4 Task Controller
-- [ ] Create `backend/src/modules/projects/task.controller.ts`
+- [x] Create `backend/src/modules/projects/task.controller.ts`
   - HTTP handlers for task CRUD
   - **Ref:** [backend.md#tasks](./backend.md#api-endpoints)
 
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 22        | 79%          |
+| 8-16  | Backend      | 28 tasks | 23        | 82%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 47        | 75%          |
+| Total |              | 63 tasks | 48        | 76%          |
