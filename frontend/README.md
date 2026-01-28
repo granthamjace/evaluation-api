@@ -1,54 +1,62 @@
-# frontend
+# Evaluation API - Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue 3 + TypeScript SPA for the Evaluation API project.
 
-## Recommended IDE Setup
+> For full project documentation, see the [root README](../README.md).
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Tech Stack
 
-## Recommended Browser Setup
+- **Framework:** Vue 3 + TypeScript
+- **Build:** Vite
+- **State:** Pinia (composition API style)
+- **Router:** Vue Router (HTML5 history mode)
+- **UI:** PrimeVue
+- **Testing:** Vitest
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Project Structure
 
-## Type Support for `.vue` Imports in TS
+```
+src/
+├── api/           # HTTP client with auth
+├── stores/        # Pinia state management
+├── views/         # Page components
+├── types/         # TypeScript types
+├── router/        # Route definitions
+├── App.vue        # Root component
+└── main.ts        # App entry point
+```
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Setup
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Development
 
-```sh
-npm run dev
+```bash
+npm run dev              # Start dev server (http://localhost:5173)
+npm run build            # Type-check and build for production
+npm run test:unit        # Run tests with Vitest
+npm run lint             # Lint with ESLint
+npm run format           # Format with Prettier
+npm run type-check       # Run vue-tsc type checking
 ```
 
-### Type-Check, Compile and Minify for Production
+## Environment Variables
 
-```sh
-npm run build
+Create a `.env` file:
+
+```env
+VITE_API_URL=http://localhost:3000
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## IDE Setup
 
-```sh
-npm run test:unit
-```
+- [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- Disable Vetur if installed
 
-### Lint with [ESLint](https://eslint.org/)
+## Browser DevTools
 
-```sh
-npm run lint
-```
+- [Vue.js devtools for Chrome](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+- [Vue.js devtools for Firefox](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
