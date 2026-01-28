@@ -345,7 +345,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [backend.md#integration-tests](./backend.md#test-requirements)
   - **Pattern:** `backend/src/tests/integration/authApi.test.ts`
 
-- [ ] Create `backend/src/tests/integration/taskApi.test.ts`
+- [x] Create `backend/src/tests/integration/taskApi.test.ts`
   - Test duplicate title constraint (409)
   - Test same title in different projects (allowed)
   - Test SetNull on user delete
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 30 tasks | 28        | 93%          |
+| 8-16  | Backend      | 30 tasks | 29        | 97%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 65 tasks | 53        | 82%          |
+| Total |              | 65 tasks | 54        | 83%          |
