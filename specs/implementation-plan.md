@@ -338,7 +338,7 @@ Checkboxes track progress. References point to specs or source files.
   - **Ref:** [backend.md#unit-tests](./backend.md#test-requirements)
 
 ### 15.2 Integration Tests
-- [ ] Create `backend/src/tests/integration/projectApi.test.ts`
+- [x] Create `backend/src/tests/integration/projectApi.test.ts`
   - Test CRUD operations
   - Test duplicate member constraint (409)
   - Test cascade delete (project → tasks, members)
@@ -393,6 +393,6 @@ Checkboxes track progress. References point to specs or source files.
 | Phase | Focus        | Tasks    | Completed | Progress (%) |
 | ----- | ------------ | -------- | --------- | ------------ |
 | 1-7   | Frontend     | 25 tasks | 25        | 100%         |
-| 8-16  | Backend      | 28 tasks | 27        | 96%          |
+| 8-16  | Backend      | 30 tasks | 28        | 93%          |
 | 17    | Verification | 10 tasks | 0         | 0%           |
-| Total |              | 63 tasks | 52        | 83%          |
+| Total |              | 65 tasks | 53        | 82%          |
